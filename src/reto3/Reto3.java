@@ -50,6 +50,14 @@ public class Reto3 {
                 System.out.println("El " + personaje3.getNombre_personaje() + " tiene " + valores[i] + " de puntaje.");
             }
         }
+        
+        if(valores[2]==personaje1.getPuntaje()){
+            System.out.println("El " + personaje1.getNombre_personaje() + " es el que tiene mayor puntaje.");
+        }else if(valores[2]==personaje2.getPuntaje()){
+            System.out.println("El " + personaje2.getNombre_personaje() + " es el que tiene mayor puntaje.");
+        }else if(valores[2]==personaje3.getPuntaje()){
+            System.out.println("El " + personaje3.getNombre_personaje() + " es el que tiene mayor puntaje.");
+        }
     }
     
 }
