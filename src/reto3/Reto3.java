@@ -42,11 +42,14 @@ public class Reto3 {
         }
         
         for(int i=0; i<valores.length;i++){
-            System.out.println(valores[i]);
+            if(valores[i]==personaje1.getPuntaje()){
+                System.out.println("El " + personaje1.getNombre_personaje() + " tiene " + valores[i] + " de puntaje.");
+            }else if(valores[i]==personaje2.getPuntaje()){
+                System.out.println("El " + personaje2.getNombre_personaje() + " tiene " + valores[i] + " de puntaje.");
+            }else if(valores[i]==personaje3.getPuntaje()){
+                System.out.println("El " + personaje3.getNombre_personaje() + " tiene " + valores[i] + " de puntaje.");
+            }
         }
-        
-        mayor = valores[2];
-        System.out.println("Su puntaje mayor es: " + mayor);
     }
     
 }

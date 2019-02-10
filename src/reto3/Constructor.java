@@ -18,4 +18,10 @@ public class Constructor {
     public void setPuntaje(int puntaje) {
         this.puntaje = puntaje;
     }
+
+    public String getNombre_personaje() {
+        return nombre_personaje;
+    }
+    
+    
 }
